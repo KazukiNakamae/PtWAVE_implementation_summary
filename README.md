@@ -87,11 +87,11 @@ def Modeling_Chromatograms(results, output_vec, decomposition_window, EMSPs, ind
 
     # Save optimal results and calculate relative proportions
     r_squared, EMSPs, estimated_coefficients = bic_tuple[1], bic_tuple[2], bic_tuple[3]
-    xtotal = estimated_coefficients.sum()
+    coefficients_total = estimated_coefficients.sum()
 
     for n, estimated_coefficient in enumerate(estimated_coefficients):
         EMSPs[n].EMSP_abs = estimated_coefficient
-        EMSPs[n].EMSP_rel = estimated_coefficient / (1.0 * xtotal)
+        EMSPs[n].EMSP_rel = estimated_coefficient / (1.0 * coefficients_total)
 
     EMSP_rel_array = round_percent([x.EMSP_rel for x in EMSPs], r_squared)
     
