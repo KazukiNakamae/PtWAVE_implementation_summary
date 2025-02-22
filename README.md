@@ -186,7 +186,6 @@ def on_button_click(input_data, user_parameters):
         <Checking response>
         ...
     
-    # エラーが発生した場合、エラーメッセージを表示し、処理を中断する。
     except Exception as e:
         <Error handling>
         ...
