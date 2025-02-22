@@ -1,1 +1,1 @@
-# PtWAVE_implementation_summary
+# PtWAVE implementation summary
