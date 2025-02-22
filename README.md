@@ -162,6 +162,7 @@ def main():
         # Start analysis of input data and user parameters when the "Analyze" button is clicked.
         if st.button(label="Analyze"):
             on_button_click(input_data, user_parameters)
+    
     with output_form:
 
         output_path = st.session_state.get("output", None)
