@@ -1,6 +1,6 @@
 # PtWAVE implementation summary
 
-This repository provides Python-based code examples of the main algorithms implemented in PtWAVE (https://www.ptwave-ptbio.com) version 1.
+This repository provides Python-based code examples of the main algorithms implemented in PtWAVE (https://www.ptwave-ptbio.com) version beta.
 
 *Notes: This code has been modified to explain our algorithms clearly. The actual PtWAVE server includes more complex data processing less relevant to the algorithms.
 
